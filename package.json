@@ -1,0 +1,33 @@
+{
+  "name": "getting-started-rxjs",
+  "version": "1.0.0",
+  "description": "## Project Files for [Pluralsight Course](https://app.pluralsight.com/library/courses/reactive-programming-rxjs-getting-started/table-of-contents)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbstocker/getting-started-rxjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbstocker/getting-started-rxjs/issues"
+  },
+  "homepage": "https://github.com/dbstocker/getting-started-rxjs#readme",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "source-map-loader": "^1.1.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "typings": "^2.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
